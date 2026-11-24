@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shreya Srivastava — Aspiring Data Scientist</title>
+  <meta name="description" content="Portfolio of Shreya Srivastava — B.Tech CSE (Data Science & AI). Turning Data Into Insights. Exploring Intelligence Beyond Code." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Scroll progress -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- ============ HEADER / NAV ============ -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#home" class="brand">
+        <span class="brand-mark">SS</span>
+        <span class="brand-text">SHREYA SRIVASTAVA</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="icon-btn theme-toggle" id="themeToggle" aria-label="Toggle light or dark theme">
+          <span class="theme-icon" aria-hidden="true">🌙</span>
+        </button>
+        <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section id="home" class="hero">
+      <div class="hero-aurora" aria-hidden="true"></div>
+      <div class="hero-grid-bg" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <div class="hero-greeting">
+            <div class="avatar avatar-hero">
+              <img src="assets/images/profile-hero.jpg"
+                   alt="Portrait of Shreya Srivastava"
+                   loading="eager"
+                   onerror="this.parentElement.classList.add('no-photo')" />
+              <span class="avatar-mono" aria-hidden="true">SS</span>
+            </div>
+            <p class="eyebrow"><span class="pulse-dot"></span> Hello, I'm</p>
+          </div>
+
+          <h1 class="hero-title">Shreya <span class="grad-text">Srivastava</span></h1>
+          <p class="hero-tagline">
+            Turning Data Into Insights.<br />
+            Exploring Intelligence <em>Beyond Code.</em>
+          </p>
+          <p class="hero-sub">Aspiring Data Scientist &nbsp;·&nbsp; Generative AI Learner &nbsp;·&nbsp; Agentic AI Enthusiast</p>
+          <p class="hero-desc">
+            A second-year B.Tech Computer Science student specializing in Data Science &amp; Artificial
+            Intelligence — building my foundation in programming, exploring data, and experimenting with
+            Generative AI.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary">
+              Explore My Work <span aria-hidden="true">→</span>
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              <span aria-hidden="true">✉</span> Let's Connect
+            </a>
+          </div>
+
+          <p class="status-line">
+            <span class="status-dot"></span> Learning, Exploring &amp; Building…
+          </p>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orb-stage">
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+            <div class="orbit orbit-3"></div>
+            <div class="orb">
+              <div class="orb-inner"></div>
+              <div class="orb-shine"></div>
+            </div>
+            <div class="orb-chip chip-ai">AI</div>
+            <div class="orb-chip chip-data">DATA</div>
+            <div class="orb-chip chip-code">&lt;/&gt;</div>
+          </div>
+          <div class="particles" id="particles"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">About Me</p>
+          <h2 class="section-title">A curious mind, <span class="grad-text">building with data</span></h2>
+          <p class="section-desc">
+            I'm at the beginning of an exciting journey — learning the fundamentals of Data Science,
+            exploring Generative AI, and turning ideas into small, practical projects.
+          </p>
+        </header>
+
+        <div class="about-grid">
+          <article class="glass about-card reveal">
+            <p>
+              I'm <strong>Shreya Srivastava</strong>, a second-year B.Tech Computer Science student
+              specializing in <strong>Data Science and Artificial Intelligence</strong>. I'm interested in
+              understanding data, exploring Generative AI, and developing practical technology solutions.
+            </p>
+            <p>
+              I enjoy experimenting with programming, building web projects, and continuously expanding
+              my knowledge. My long-term goal is to become a <strong>Data Scientist</strong> while
+              exploring the possibilities of <strong>Agentic AI</strong>.
+            </p>
+            <p>
+              Before university, I served as <strong>Head Girl</strong> at <strong>Vardaan International Academy</strong> —
+              an experience that shaped my confidence, communication, and ability to lead and coordinate
+              teams.
+            </p>
+
+            <ul class="chip-list" aria-label="Interests">
+              <li class="chip">Data Science</li>
+              <li class="chip">Generative AI</li>
+              <li class="chip">Agentic AI</li>
+              <li class="chip">Web Development</li>
+              <li class="chip">Exploratory Data Analysis</li>
+              <li class="chip">Prompting</li>
+            </ul>
+          </article>
+
+          <aside class="about-side reveal">
+            <div class="glass portrait-card">
+              <div class="portrait-media">
+                <img src="assets/images/profile-about.jpg"
+                     alt="Portrait of Shreya Srivastava"
+                     loading="lazy"
+                     onerror="this.parentElement.classList.add('no-photo')" />
+                <span class="portrait-mono" aria-hidden="true">SS</span>
+              </div>
+              <span class="portrait-tag">Shreya Srivastava</span>
+            </div>
+
+            <div class="glass mini-card ">
+              <span class="mini-icon">🏅</span>
+              <h3>Head Girl</h3>
+              <p>Vardaan International Academy</p>
+            </div>
+            <div class="glass mini-card">
+              <span class="mini-icon">🎓</span>
+              <h3>B.Tech CSE</h3>
+              <p>Data Science &amp; Artificial Intelligence</p>
+            </div>
+            <div class="glass mini-card">
+              <span class="mini-icon">📊</span>
+              <h3>Exploratory Data Analysis</h3>
+              <p>Kaggle datasets &amp; basic visualisation</p>
+            </div>
+            <div class="glass mini-card">
+              <span class="mini-icon">🤖</span>
+              <h3>Generative AI</h3>
+              <p>Foundational concepts &amp; prompting</p>
+            </div>
+            <div class="glass mini-card">
+              <span class="mini-icon">🌱</span>
+              <h3>Currently Exploring</h3>
+              <p>Agentic AI &amp; intelligent automation</p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Education &amp; Leadership</p>
+          <h2 class="section-title">Academic <span class="grad-text">background</span></h2>
+        </header>
+
+        <div class="timeline reveal">
+          <div class="timeline-line" aria-hidden="true"></div>
+
+          <article class="glass timeline-item">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <p class="timeline-year">Second Year · Present</p>
+            <h3>B.Tech in Computer Science &amp; Engineering</h3>
+            <p class="timeline-specialization">Specialization: Data Science &amp; Artificial Intelligence</p>
+            <p class="timeline-org">Shri Ramswaroop Memorial University</p>
+            <p class="timeline-note">
+              Building a strong foundation in programming, data exploration, and AI concepts
+              through coursework and self-driven learning.
+            </p>
+          </article>
+
+          <article class="glass timeline-item timeline-item-spaced">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <p class="timeline-year">School Leadership</p>
+            <h3>Head Girl</h3>
+            <p class="timeline-org">Vardaan International Academy</p>
+            <p class="timeline-note">
+              Served as Head Girl — representing the student body, coordinating school events,
+              and leading peer initiatives alongside the faculty.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Skills</p>
+          <h2 class="section-title">What I'm <span class="grad-text">learning &amp; building with</span></h2>
+          <p class="section-desc">Honest, foundational knowledge — grouped by area of focus.</p>
+        </header>
+
+        <div class="skills-grid">
+          <article class="glass skill-card reveal">
+            <div class="skill-head">
+              <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+              <h3>Programming &amp; Web</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span>C Programming</span><span class="level">Foundational</span></li>
+              <li><span>JAVA</span><span class="level">Foundational</span></li>
+              <li><span>Python</span><span class="level">Foundational</span></li>
+              <li><span>DSA</span><span class="level">Foundational</span></li>
+            </ul>
+          </article>
+
+          <article class="glass skill-card reveal">
+            <div class="skill-head">
+              <span class="skill-icon" aria-hidden="true">📊</span>
+              <h3>Data Science</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span>Basic Exploratory Data Analysis</span><span class="level">Learning</span></li>
+              <li><span>Working with Kaggle Datasets</span><span class="level">Learning</span></li>
+              <li><span>Basic Data Exploration</span><span class="level">Learning</span></li>
+              <li><span>Introductory Data Visualisation</span><span class="level">Learning</span></li>
+            </ul>
+          </article>
+
+          <article class="glass skill-card reveal">
+            <div class="skill-head">
+              <span class="skill-icon" aria-hidden="true">🤖</span>
+              <h3>Generative AI &amp; Prompting</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span>Basic Prompting</span><span class="level">Foundational</span></li>
+              <li><span>Google Prompt Essentials concepts</span><span class="level">Foundational</span></li>
+              <li><span>Introduction to Generative AI</span><span class="level">Foundational</span></li>
+              <li><span>AI Applications Understanding</span><span class="level">Foundational</span></li>
+            </ul>
+          </article>
+
+          <article class="glass skill-card reveal">
+            <div class="skill-head">
+              <span class="skill-icon" aria-hidden="true">🚀</span>
+              <h3>Currently Exploring</h3>
+            </div>
+            <ul class="skill-list">
+              <li><span>Data Science</span><span class="level">Exploring</span></li>
+              <li><span>Agentic AI</span><span class="level">Exploring</span></li>
+              <li><span>AI-powered Applications</span><span class="level">Exploring</span></li>
+              <li><span>Intelligent Automation</span><span class="level">Exploring</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Featured Projects</p>
+          <h2 class="section-title">Ideas turned into <span class="grad-text">working projects</span></h2>
+          <p class="section-desc">A small but honest collection of what I've built while learning.</p>
+        </header>
+
+        <article class="glass project project-featured reveal">
+          <div class="project-visual" aria-hidden="true">
+            <img src="assets/images/nexevent-preview.png" 
+                 alt="NexEvent Login Portal" 
+                 class="project-screenshot" 
+                 loading="lazy" />
+          </div>
+
+          <div class="project-body">
+            <span class="badge badge-featured">★ Featured Project</span>
+            <h3 class="project-title">NexEvent</h3>
+            <p class="project-category">Campus Event Management · Web Development</p>
+            <p class="project-desc">
+              NexEvent is a centralized hub for campus events, designed to bring campus events together
+              on a single platform. It aims to make campus event discovery and access more organized and
+              convenient for students by providing a unified place for campus event-related information
+              and activities.
+            </p>
+            <ul class="tech-badges">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <div class="project-actions">
+              <a href="https://nexevent-iota.vercel.app" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+                View Live Demo <span aria-hidden="true">↗</span>
+              </a>
+              <a href="https://github.com/shreyasrivastava-ai" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+                GitHub <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <div class="project-row">
+          <article class="glass project reveal">
+            <div class="project-visual small" aria-hidden="true">
+              <div class="mock-calendar">
+                <div class="cal-head"></div>
+                <div class="cal-grid">
+                  <span></span><span></span><span></span><span></span>
+                  <span></span><span class="cal-active"></span><span></span><span></span>
+                  <span></span><span></span><span></span><span></span>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="badge">Project · Web</span>
+              <h3 class="project-title">Eventify</h3>
+              <p class="project-category">Campus Event Management</p>
+              <p class="project-desc">
+                Eventify is my original JavaScript-based campus event management project. It served as
+                the foundation for developing NexEvent, which evolved into a more centralized platform
+                with additional features and modifications.
+              </p>
+              <p class="journey">
+                <span class="journey-step">Eventify</span>
+                <span class="journey-arrow" aria-hidden="true">→</span>
+                <span class="journey-step active">NexEvent</span>
+              </p>
+              <ul class="tech-badges">
+                <li>HTML</li><li>CSS</li><li>JavaScript</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/shreyasrivastava-ai" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+                  GitHub <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="glass project reveal">
+            <div class="project-visual small" aria-hidden="true">
+              <div class="mock-chart">
+                <div class="bar b1"></div>
+                <div class="bar b2"></div>
+                <div class="bar b3"></div>
+                <div class="bar b4"></div>
+                <div class="bar b5"></div>
+              </div>
+              <span class="mock-tag">Kaggle</span>
+            </div>
+            <div class="project-body">
+              <span class="badge">Project · Data Science</span>
+              <h3 class="project-title">Exploratory Data Analysis</h3>
+              <p class="project-category">Data Science</p>
+              <p class="project-desc">
+                Performed basic-level Exploratory Data Analysis on datasets available through Kaggle to
+                explore data distributions, understand patterns and identify useful insights.
+              </p>
+              <ul class="tech-badges">
+                <li>EDA</li><li>Kaggle</li><li>Data Exploration</li>
+              </ul>
+              <div class="project-actions">
+                <a href="https://github.com/shreyasrivastava-ai" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+                  GitHub <span aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Certifications &amp; Learning Journey</p>
+          <h2 class="section-title">A <span class="grad-text">learning path</span> in AI</h2>
+          <p class="section-desc">
+            A collection of course certificates and Google Skills badges earned through the AI Skills House learning program.
+          </p>
+        </header>
+
+        <div class="cert-actions reveal">
+          <a href="https://www.skills.google/public_profiles/772d5516-ea5c-4265-a827-535c32f78e67" target="_blank" rel="noopener" class="btn btn-primary">
+            Explore My Google Skills Profile <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+
+        <div class="cert-grid reveal">
+          <!-- 1. IICT Main Certificate -->
+          <article class="glass cert-card" data-title="Foundation Course on AI Readiness" data-index="01">
+            <div class="cert-thumb">
+              <span>01</span>
+              <img src="assets/certificates/AI Skills House_cert.png" alt="Foundation Course on AI Readiness" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="cert-info">
+              <h3>Foundation Course on AI Readiness</h3>
+              <p class="cert-meta">IICT &amp; AI Skills House</p>
+              <button class="btn btn-ghost btn-sm cert-open">View</button>
+            </div>
+          </article>
+
+          <!-- 2. Google AI Essentials -->
+          <article class="glass cert-card" data-title="Google AI Essentials" data-index="02">
+            <div class="cert-thumb">
+              <span>02</span>
+              <img src="assets/certificates/cert-01.png" alt="Google AI Essentials" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="cert-info">
+              <h3>Google AI Essentials</h3>
+              <p class="cert-meta">Google / Coursera</p>
+              <button class="btn btn-ghost btn-sm cert-open">View</button>
+            </div>
+          </article>
+
+          <!-- 3. Maximize Productivity with AI Tools -->
+          <article class="glass cert-card" data-title="Mastering Productivity with AI Tools" data-index="03">
+            <div class="cert-thumb">
+              <span>03</span>
+              <img src="assets/certificates/cert-02.png" alt="Mastering Productivity with AI Tools" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="cert-info">
+              <h3>Maximize Productivity with AI Tools</h3>
+              <p class="cert-meta">Google / Coursera</p>
+              <button class="btn btn-ghost btn-sm cert-open">View</button>
+            </div>
+          </article>
+
+          <!-- 4. Introduction to AI -->
+          <article class="glass cert-card" data-title="Introduction to AI" data-index="04">
+            <div class="cert-thumb">
+              <span>04</span>
+              <img src="assets/certificates/cert-03.png" alt="Introduction to AI" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="cert-info">
+              <h3>Introduction to AI</h3>
+              <p class="cert-meta">Google / Coursera</p>
+              <button class="btn btn-ghost btn-sm cert-open">View</button>
+            </div>
+          </article>
+
+          <!-- 5. Stay Ahead of the AI Curve -->
+          <article class="glass cert-card" data-title="Start Writing Prompts like a Pro" data-index="05">
+            <div class="cert-thumb">
+              <span>05</span>
+              <img src="assets/certificates/cert-04.png" alt="Start Writing Prompts like a Pro" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="cert-info">
+              <h3>Stay Ahead of the AI Curve</h3>
+              <p class="cert-meta">Google / Coursera</p>
+              <button class="btn btn-ghost btn-sm cert-open">View</button>
+            </div>
+          </article>
+
+          <!-- 6. Use AI Responsibly -->
+          <article class="glass cert-card" data-title="Speed Up Data Analysis and Presentation Building" data-index="06">
+            <div class="cert-thumb">
+              <span>06</span>
+              <img src="assets/certificates/cert-05.png" alt="Speed Up Data Analysis and Presentation Building" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="cert-info">
+              <h3>Use AI Responsibly</h3>
+              <p class="cert-meta">Google / Coursera</p>
+              <button class="btn btn-ghost btn-sm cert-open">View</button>
+            </div>
+          </article>
+
+          <!-- 7. Google Prompting Essentials -->
+          <article class="glass cert-card" data-title="Google Prompting Essentials" data-index="07">
+            <div class="cert-thumb">
+              <span>07</span>
+              <img src="assets/certificates/cert-06.png" alt="Google Prompting Essentials" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="cert-info">
+              <h3>Google Prompting Essentials</h3>
+              <p class="cert-meta">Google / Coursera</p>
+              <button class="btn btn-ghost btn-sm cert-open">View</button>
+            </div>
+          </article>
+
+          <!-- 8. Speed Up Data Analysis and Presentation Building -->
+          <article class="glass cert-card" data-title="Maximize Productivity with AI Tools" data-index="08">
+            <div class="cert-thumb">
+              <span>08</span>
+              <img src="assets/certificates/cert-07.png" alt="Maximize Productivity with AI Tools" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="cert-info">
+              <h3>Speed Up Data Analysis and Presentation Building</h3>
+              <p class="cert-meta">Google / Coursera</p>
+              <button class="btn btn-ghost btn-sm cert-open">View</button>
+            </div>
+          </article>
+
+          <!-- 9. Design Prompts for Everyday Work Tasks -->
+          <article class="glass cert-card" data-title="Stay Ahead of the AI Curve" data-index="09">
+            <div class="cert-thumb">
+              <span>09</span>
+              <img src="assets/certificates/cert-08.png" alt="Stay Ahead of the AI Curve" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="cert-info">
+              <h3>Design Prompts for Everyday Work Tasks</h3>
+              <p class="cert-meta">Google / Coursera</p>
+              <button class="btn btn-ghost btn-sm cert-open">View</button>
+            </div>
+          </article>
+
+          <!-- 10. Discover the Art of Prompting -->
+          <article class="glass cert-card" data-title="Use AI Responsibly" data-index="10">
+            <div class="cert-thumb">
+              <span>10</span>
+              <img src="assets/certificates/cert-09.png" alt="Use AI Responsibly" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="cert-info">
+              <h3>Discover the Art of Prompting</h3>
+              <p class="cert-meta">Google / Coursera</p>
+              <button class="btn btn-ghost btn-sm cert-open">View</button>
+            </div>
+          </article>
+
+          <!-- 11. Start Writing Prompts like a Pro -->
+          <article class="glass cert-card" data-title="Introduction to Generative AI" data-index="11">
+            <div class="cert-thumb">
+              <span>11</span>
+              <img src="assets/certificates/cert-10.png" alt="Introduction to Generative AI" loading="lazy" onerror="this.style.display='none'">
+            </div>
+            <div class="cert-info">
+              <h3>Start Writing Prompts like a Pro</h3>
+              <p class="cert-meta">Google / Coursera</p>
+              <button class="btn btn-ghost btn-sm cert-open">View</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CURRENTLY EXPLORING ============ -->
+    <section id="exploring" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Currently Exploring</p>
+          <h2 class="section-title">Where I'm <span class="grad-text">heading next</span></h2>
+          <p class="section-desc">Areas I'm actively learning about — not claims of expertise.</p>
+        </header>
+
+        <div class="explore-grid">
+          <article class="glass explore-card reveal">
+            <span class="explore-icon">📈</span>
+            <h3>Data Science</h3>
+            <p>Deepening my understanding of data exploration and analysis workflows.</p>
+          </article>
+          <article class="glass explore-card reveal">
+            <span class="explore-icon">🧠</span>
+            <h3>Agentic AI</h3>
+            <p>Learning how autonomous agents plan, reason, and act using tools.</p>
+          </article>
+          <article class="glass explore-card reveal">
+            <span class="explore-icon">⚡</span>
+            <h3>AI-powered Applications</h3>
+            <p>Exploring how AI can be embedded into practical, useful applications.</p>
+          </article>
+          <article class="glass explore-card reveal">
+            <span class="explore-icon">🔁</span>
+            <h3>Intelligent Automation</h3>
+            <p>How AI can streamline repetitive tasks and improve productivity.</p>
+          </article>
+          <article class="glass explore-card reveal">
+            <span class="explore-icon">🔬</span>
+            <h3>Advanced Data Analysis</h3>
+            <p>Moving towards deeper statistical thinking and richer insights.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Get in Touch</p>
+          <h2 class="section-title">Let's <span class="grad-text">connect</span></h2>
+          <p class="section-desc">
+            I'm always open to learning opportunities, collaborations and conversations about data &amp; AI.
+          </p>
+        </header>
+
+        <div class="contact-grid">
+          <form class="glass contact-form reveal" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" />
+              <span class="error" data-for="name"></span>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" />
+              <span class="error" data-for="email"></span>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Write a short message…"></textarea>
+              <span class="error" data-for="message"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message <span aria-hidden="true">→</span></button>
+            <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+          </form>
+
+          <aside class="contact-side reveal">
+            <a class="glass contact-link" href="mailto:shreyasrivastava.53290.srmu@gmail.com">
+              <span class="contact-icon">✉</span>
+              <div>
+                <h3>Email</h3>
+                <p>shreyasrivastava.53290.srmu@gmail.com</p>
+              </div>
+            </a>
+            <a class="glass contact-link" href="https://github.com/shreyasrivastava-ai" target="_blank" rel="noopener">
+              <span class="contact-icon">🐙</span>
+              <div>
+                <h3>GitHub</h3>
+                <p>github.com/shreyasrivastava-ai</p>
+              </div>
+            </a>
+            <a class="glass contact-link" href="https://www.linkedin.com/in/shreya-srivastava-6bab18396/" target="_blank" rel="noopener">
+              <span class="contact-icon">in</span>
+              <div>
+                <h3>LinkedIn</h3>
+                <p>linkedin.com/in/shreya-srivastava-6bab18396</p>
+              </div>
+            </a>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="brand-mark">SS</span>
+        <div>
+          <p class="footer-name">SHREYA SRIVASTAVA</p>
+          <p class="footer-motto">Dream · Learn · Build</p>
+        </div>
+      </div>
+      <p class="footer-copy">© <span id="year"></span> Shreya Srivastava. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- ============ CERTIFICATE MODAL ============ -->
+  <div class="modal" id="certModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-box glass">
+      <button class="modal-close" data-close aria-label="Close certificate preview">✕</button>
+      <div class="modal-preview" id="modalPreview" aria-hidden="true">
+        <span id="modalIndex">01</span>
+      </div>
+      <h3 id="modalTitle">Certificate Title</h3>
+      <p class="modal-meta" id="modalMeta">IICT · AI Skills House</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
