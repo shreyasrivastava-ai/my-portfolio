@@ -141,7 +141,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const title = card.getAttribute('data-title') || '';
     const index = card.getAttribute('data-index') || '01';
 
-    // Handle Title Visibility (Minimal for the 11 additional certs)
     if (modalTitle) {
       if (title.trim() === '') {
         modalTitle.style.display = 'none';
@@ -151,7 +150,6 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     }
 
-    // Handle Meta Visibility
     if (modalMeta) {
       if (title.trim() === '') {
         modalMeta.style.display = 'none';
@@ -165,7 +163,6 @@ document.addEventListener('DOMContentLoaded', () => {
     if (modalPreview) {
       modalPreview.innerHTML = `<span>${index}</span>`;
       
-      // Try to grab the image directly from the card if it exists and isn't broken
       const cardImg = card.querySelector('.cert-thumb img');
       if (cardImg && cardImg.style.display !== 'none' && cardImg.complete && cardImg.naturalWidth > 0) {
         modalPreview.innerHTML = '';
@@ -174,10 +171,9 @@ document.addEventListener('DOMContentLoaded', () => {
         img.alt = title || 'Certificate';
         modalPreview.appendChild(img);
       } else {
-        // Fallback: try loading .png, .jpg, .jpeg dynamically based on the data-index
         const extensions = ['png', 'jpg', 'jpeg'];
         const tryLoad = (extIdx) => {
-          if (extIdx >= extensions.length) return; // all failed
+          if (extIdx >= extensions.length) return; 
           const img = new Image();
           img.alt = title || 'Certificate';
           img.onload = () => {
@@ -186,11 +182,9 @@ document.addEventListener('DOMContentLoaded', () => {
           };
           img.onerror = () => tryLoad(extIdx + 1);
           
-          // Special case for the first certificate name
           if (index === '01') {
              img.src = `assets/certificates/AI Skills House_cert.${extensions[extIdx]}`;
           } else {
-             // For the rest, map data-index 02->cert-01, 03->cert-02, etc.
              const fileNum = (parseInt(index) - 1).toString().padStart(2, '0');
              img.src = `assets/certificates/cert-${fileNum}.${extensions[extIdx]}`;
           }
